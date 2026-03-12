@@ -4,4 +4,5 @@
 dias = int(input('Dias Locados: '))
 km = float(input('Km rodados: '))
 valor = (dias * 50) + (km * 0.20)
-print('O total a ser pago será de === R${___:.2f___} ==='.format(valor))
+print(' ')
+print('O total a ser pago será de R${:.2f}'.format(valor))
